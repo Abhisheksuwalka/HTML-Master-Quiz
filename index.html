@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML quiz</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+      h2 {
+        margin-bottom: 20px;
+      }
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      fieldset {
+        margin-bottom: 20px;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      .wrong-answer {
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>HTML Master Quiz</h1>
+      <h2>By Abhishek Suwalka</h2>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <legend>
+            1. What is the purpose of the <code>allow</code> attribute in an
+            <code>&lt;iframe&gt;</code> element?
+          </legend>
+          <label
+            ><input type="radio" name="q1" value="A" /> A) Allows the frame to
+            run scripts without creating popup windows</label
+          >
+          <label
+            ><input type="radio" name="q1" value="B" /> B) Specifies the height
+            and width of the frame</label
+          >
+          <label
+            ><input type="radio" name="q1" value="C" /> C) Enables fullscreen
+            mode for the content within the frame</label
+          >
+          <label
+            ><input type="radio" name="q1" value="D" /> D) Determines the
+            referrer policy for the content loaded in the frame</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            2. Which file types are commonly supported for embedding videos?
+          </legend>
+          <label
+            ><input type="radio" name="q2" value="A" /> A) MP4, WebP,
+            JPEG</label
+          >
+          <label
+            ><input type="radio" name="q2" value="B" /> B) WebM, GIF, PNG</label
+          >
+          <label
+            ><input type="radio" name="q2" value="C" /> C) MP3, WAV, GIF</label
+          >
+          <label
+            ><input type="radio" name="q2" value="D" /> D) MP4, WebM, OGG</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            3. What does the <code>&lt;canvas&gt;</code> element allow
+            developers to do?
+          </legend>
+          <label
+            ><input type="radio" name="q3" value="A" /> A) Embed videos and
+            audio files</label
+          >
+          <label
+            ><input type="radio" name="q3" value="B" /> B) Create 2D and 3D
+            animations using WebGL</label
+          >
+          <label
+            ><input type="radio" name="q3" value="C" /> C) Draw graphics and
+            animations using JavaScript</label
+          >
+          <label
+            ><input type="radio" name="q3" value="D" /> D) Apply styles to HTML
+            elements</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            4. What is the purpose of the <code>required</code> attribute in an
+            HTML form?
+          </legend>
+          <label
+            ><input type="radio" name="q4" value="A" /> A) Specifies that the
+            form field must be filled out before submitting the form</label
+          >
+          <label
+            ><input type="radio" name="q4" value="B" /> B) Prevents the user
+            from changing the value of the form field</label
+          >
+          <label
+            ><input type="radio" name="q4" value="C" /> C) Validates the format
+            of the data entered in the form field</label
+          >
+          <label
+            ><input type="radio" name="q4" value="D" /> D) Allows the form field
+            to accept multiple values</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            5. Which attribute is used to specify a particular pattern that an
+            input field value must match?
+          </legend>
+          <label><input type="radio" name="q5" value="A" /> A) minlength</label>
+          <label><input type="radio" name="q5" value="B" /> B) maxlength</label>
+          <label><input type="radio" name="q5" value="C" /> C) pattern</label>
+          <label><input type="radio" name="q5" value="D" /> D) required</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            6. What is the role of the <code>&lt;option&gt;</code> element in an
+            HTML form?
+          </legend>
+          <label
+            ><input type="radio" name="q6" value="A" /> A) Specifies the label
+            for a form field</label
+          >
+          <label
+            ><input type="radio" name="q6" value="B" /> B) Defines a single-line
+            text field for user input</label
+          >
+          <label
+            ><input type="radio" name="q6" value="C" /> C) Creates options for a
+            dropdown list in a <code>&lt;select&gt;</code> element</label
+          >
+          <label
+            ><input type="radio" name="q6" value="D" /> D) Embeds an external
+            webpage within the current webpage</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>7. How can CSS be used to validate form data?</legend>
+          <label
+            ><input type="radio" name="q7" value="A" /> A) By applying the
+            <code>:valid</code> pseudo-class to valid input fields</label
+          >
+          <label
+            ><input type="radio" name="q7" value="B" /> B) By using JavaScript
+            to check the validity of form fields</label
+          >
+          <label
+            ><input type="radio" name="q7" value="C" /> C) By setting the
+            <code>required</code> attribute on form fields</label
+          >
+          <label
+            ><input type="radio" name="q7" value="D" /> D) By adding custom
+            error messages to form fields</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            8. What is the purpose of the <code>srcdoc</code> attribute in an
+            <code>&lt;iframe&gt;</code> element?
+          </legend>
+          <label
+            ><input type="radio" name="q8" value="A" /> A) Specifies the source
+            URL of the content to be embedded in the frame</label
+          >
+          <label
+            ><input type="radio" name="q8" value="B" /> B) Allows the frame to
+            run scripts without creating popup windows</label
+          >
+          <label
+            ><input type="radio" name="q8" value="C" /> C) Defines inline HTML
+            content to be displayed in the frame</label
+          >
+          <label
+            ><input type="radio" name="q8" value="D" /> D) Determines the
+            referrer policy for the content loaded in the frame</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            9. What is the role of the <code>&lt;optgroup&gt;</code> element in
+            a <code>&lt;select&gt;</code> dropdown list?
+          </legend>
+          <label
+            ><input type="radio" name="q9" value="A" /> A) Groups related
+            options together within the dropdown list</label
+          >
+          <label
+            ><input type="radio" name="q9" value="B" /> B) Specifies the label
+            for the dropdown list</label
+          >
+          <label
+            ><input type="radio" name="q9" value="C" /> C) Defines the options
+            available for selection in the dropdown list</label
+          >
+          <label
+            ><input type="radio" name="q9" value="D" /> D) Determines the
+            default selected option in the dropdown list</label
+          >
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            10. How can CSS be used to style HTML form elements for consistent
+            appearance across browsers?
+          </legend>
+          <label
+            ><input type="radio" name="q10" value="A" /> A) By targeting
+            specific form elements using CSS selectors</label
+          >
+          <label
+            ><input type="radio" name="q10" value="B" /> B) By using JavaScript
+            to dynamically apply styles to form elements</label
+          >
+          <label
+            ><input type="radio" name="q10" value="C" /> C) By applying inline
+            styles directly to form elements</label
+          >
+          <label
+            ><input type="radio" name="q10" value="D" /> D) By using external
+            CSS frameworks to style form elements</label
+          >
+        </fieldset>
+
+        <input type="submit" value="Submit" />
+      </form>
+      <div id="result" style="display: none"></div>
+      <script src="./script.js"></script>
+    </main>
+    <footer>
+      <p>this is footer.</p>
+    </footer>
+  </body>
+</html>
